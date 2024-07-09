@@ -108,10 +108,11 @@ input.btnEntrada {
 }
 
 input.btnEntrada:hover {
-    background-color: #fff;
+    background-color: pink;
     color: #000;
     transition: .5s;
-    opacity: .6;
+
+    font-weight: bold;
 
 }
 
@@ -155,4 +156,13 @@ input.btnLi {
     height: 1.5rem;
 
         cursor: pointer;
+}
+
+input.btnLi:hover {
+    background-color: rgb(0, 255, 21);
+    color: #000;
+    font-weight: bold;
+
+    transition: .4s;
+    opacity: .6;
 }

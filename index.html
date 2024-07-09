@@ -20,26 +20,20 @@
     </header>
 
     <main>
-        <div class="listas">
-            LISTA 1
-        </div>
-        <div class="listas">
-            LISTA 2
-        </div>
-        <div class="listas">
-            LISTA 3
-        </div>
-        <div class="listas">
-            LISTA 4
-        </div>
-        <div class="listas">
-            LISTA 5
-        </div>
-        <div class="listas">
-            LISTA 6
-        </div>
-        <div class="listas">
-            LISTA 7
+        <div class="containerLista">
+
+            <input type="text" name="inputTxtEntrada" class="inputTxtEntrada" placeholder="Digite a próxima tarefa.">
+            <input type="button" value="&#10551" class="btnEntrada" title="Inserir uma nova tarefa" onclick="insertOnList()">
+
+            <div class="saidaLista">
+                <ul>
+                    <li class="listaLi">Item1 <input type="button" value="X" class="btnLi"></li>
+
+                    <li class="listaLi">Item2 <input type="button" value="X" class="btnLi"></li>
+
+                    <li class="listaLi">Item3 <input type="button" value="X" class="btnLi"></li>
+                </ul>
+            </div>
         </div>
 
     </main>

@@ -1,8 +1,8 @@
 'use strict'
 
-let inputTxtEntrada = document.querySelector('input.inputTxtEntrada');
+const inputTxtEntrada = document.querySelector('input.inputTxtEntrada');
 
-let ulLista = document.querySelector('ul.ulLista');
+const ulLista = document.querySelector('ul.ulLista');
 
 function isInputVazio(texto) {
     if (String(texto).length < 1) {
@@ -15,7 +15,7 @@ function isInputVazio(texto) {
 function insertOnList() {
 
     if (isInputVazio(inputTxtEntrada.value)) {
-        window.alert('Insira um texto arrombado !')
+        window.alert('Insira um texto arrombado !');
 
     } else {
 
